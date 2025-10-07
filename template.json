@@ -1,0 +1,28 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Transform": "AWS::Serverless-2016-10-31",
+  "Description": "Simple Lambda Function",
+  "Resources": {
+    "SimpleLambdaFunction": {
+      "Type": "AWS::Serverless::Function",
+      "Properties": {
+        "FunctionName": "simple-lambda",
+        "Runtime": "python3.9",
+        "Handler": "app.lambda_handler",
+        "CodeUri": ".",
+        "Description": "A very simple AWS Lambda function",
+        "MemorySize": 128,
+        "Timeout": 5,
+        "Events": {
+          "ApiEvent": {
+            "Type": "Api",
+            "Properties": {
+              "Path": "/hello",
+              "Method": "get"
+            }
+          }
+        }
+      }
+    }
+  }
+}
