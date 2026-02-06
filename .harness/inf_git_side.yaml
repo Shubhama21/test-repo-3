@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: inf_git_side
+  identifier: inf_git_side
+  orgIdentifier: default
+  projectIdentifier: MeenakshiJWT
+  environmentRef: test_env_prod
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.k8s_Connector
+    namespace: harness-delegate-ng
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false
