@@ -28,3 +28,4 @@ service:
   projectIdentifier: p1
   tags:
     luffy: ""
+    alal: ""
