@@ -26,3 +26,5 @@ service:
   gitOpsEnabled: false
   orgIdentifier: default
   projectIdentifier: p1
+  tags:
+    luffy: ""
