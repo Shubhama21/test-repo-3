@@ -3,6 +3,7 @@ environment:
   identifier: shubham_bi_sync
   tags:
     abcd: ""
+    efgh: ""
   type: PreProduction
   orgIdentifier: default
   projectIdentifier: p1
