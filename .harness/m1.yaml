@@ -1,0 +1,28 @@
+service:
+  name: m1
+  identifier: m1
+  serviceDefinition:
+    type: Kubernetes
+    spec:
+      artifacts:
+        primary:
+          primaryArtifactRef: <+input>
+          sources:
+            - spec:
+                connectorRef: aws_conn
+                imagePath: shubhamtest1
+                tag: v1
+                digest: ""
+                region: <+secrets.getValue("sec_region")>
+              identifier: asi_ecr
+              type: Ecr
+            - spec:
+                connectorRef: abc
+                imagePath: <+secrets.getValue("sec_image")>
+                tag: v1.4
+                digest: ""
+              identifier: testtt
+              type: DockerRegistry
+  gitOpsEnabled: false
+  orgIdentifier: default
+  projectIdentifier: p1
