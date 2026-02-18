@@ -1,6 +1,8 @@
 environment:
   name: shubham_bi_sync
   identifier: shubham_bi_sync
+  tags:
+    abcd: ""
+  type: PreProduction
   orgIdentifier: default
   projectIdentifier: p1
-  type: PreProduction
