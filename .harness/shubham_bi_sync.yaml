@@ -13,6 +13,7 @@ environment:
     ok: ""
     zoro: ""
     gear5: ""
+    gear4: ""
   type: PreProduction
   orgIdentifier: default
   projectIdentifier: p1
