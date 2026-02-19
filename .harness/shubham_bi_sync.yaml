@@ -9,6 +9,7 @@ environment:
     lm: ""
     test_in_progress: ""
     git_side_tag: ""
+    ko: ""
   type: PreProduction
   orgIdentifier: default
   projectIdentifier: p1
