@@ -20,6 +20,6 @@ environment:
     id: ""
     hellno: ""
     avacadabra: ""
-  type: PreProduction
+  type: Production
   orgIdentifier: default
   projectIdentifier: p1
