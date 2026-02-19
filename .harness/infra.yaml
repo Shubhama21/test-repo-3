@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: infra
+  identifier: infra
+  orgIdentifier: default
+  projectIdentifier: p1
+  environmentRef: shubham_bi_sync
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.k8s_final
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false
