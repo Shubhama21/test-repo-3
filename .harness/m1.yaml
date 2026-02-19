@@ -1,5 +1,5 @@
 service:
-  name: m1
+  name: m12_test
   identifier: m1
   serviceDefinition:
     type: Kubernetes
