@@ -19,6 +19,7 @@ environment:
     ka: ""
     id: ""
     hellno: ""
+    avacadabra: ""
   type: PreProduction
   orgIdentifier: default
   projectIdentifier: p1
