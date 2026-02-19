@@ -1,6 +1,8 @@
 infrastructureDefinition:
   name: infra
   identifier: infra
+  tags:
+    inf1: ""
   orgIdentifier: default
   projectIdentifier: p1
   environmentRef: shubham_bi_sync
