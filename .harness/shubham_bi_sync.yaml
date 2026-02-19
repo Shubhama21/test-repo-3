@@ -16,6 +16,7 @@ environment:
     gear4: ""
     gear3: ""
     al: ""
+    ka: ""
   type: PreProduction
   orgIdentifier: default
   projectIdentifier: p1
