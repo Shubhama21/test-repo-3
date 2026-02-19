@@ -8,6 +8,7 @@ environment:
     mnop: ""
     lm: ""
     test_in_progress: ""
+    git_side_tag: ""
   type: PreProduction
   orgIdentifier: default
   projectIdentifier: p1
