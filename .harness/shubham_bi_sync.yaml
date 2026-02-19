@@ -11,6 +11,7 @@ environment:
     git_side_tag: ""
     ko: ""
     ok: ""
+    zoro: ""
   type: PreProduction
   orgIdentifier: default
   projectIdentifier: p1
