@@ -1,7 +1,8 @@
 environment:
   name: shubham_bi_sync_2
   identifier: shubham_bi_sync_2
-  tags: {}
+  tags:
+    test1: ""
   type: PreProduction
   orgIdentifier: default
   projectIdentifier: p1
