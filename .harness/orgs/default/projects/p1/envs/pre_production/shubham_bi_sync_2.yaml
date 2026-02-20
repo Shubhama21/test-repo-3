@@ -2,6 +2,6 @@ environment:
   name: shubham_bi_sync_2
   identifier: shubham_bi_sync_2
   tags: {}
-  type: Production
+  type: PreProduction
   orgIdentifier: default
   projectIdentifier: p1
