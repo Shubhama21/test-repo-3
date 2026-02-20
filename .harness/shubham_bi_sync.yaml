@@ -2,24 +2,7 @@ environment:
   name: shubham_bi_sync
   identifier: shubham_bi_sync
   tags:
-    abcd: ""
-    efgh: ""
-    ijkl: ""
-    mnop: ""
-    lm: ""
-    test_in_progress: ""
-    git_side_tag: ""
-    ko: ""
-    ok: ""
-    zoro: ""
-    gear5: ""
-    gear4: ""
-    gear3: ""
-    al: ""
-    ka: ""
-    id: ""
-    hellno: ""
-    avacadabra: ""
-  type: Production
+    test: ""
+  type: PreProduction
   orgIdentifier: default
   projectIdentifier: p1
