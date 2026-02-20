@@ -4,6 +4,7 @@ infrastructureDefinition:
   tags:
     inf1: ""
     inf2: ""
+    inf3: ""
   orgIdentifier: default
   projectIdentifier: p1
   environmentRef: shubham_bi_sync
