@@ -6,6 +6,6 @@ environment:
     test1: ""
     test2: ""
     test3: ""
-  type: Production
+  type: PreProduction
   orgIdentifier: default
   projectIdentifier: p1
