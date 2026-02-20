@@ -3,6 +3,7 @@ environment:
   identifier: shubham_bi_sync_2
   tags:
     test1: ""
+    test2: ""
   type: PreProduction
   orgIdentifier: default
   projectIdentifier: p1
