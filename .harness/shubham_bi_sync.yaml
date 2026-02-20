@@ -4,6 +4,6 @@ environment:
   tags:
     test: ""
     test1: ""
-  type: PreProduction
+  type: Production
   orgIdentifier: default
   projectIdentifier: p1
